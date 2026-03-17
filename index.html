@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoles Consulting | Power & Energy Consulting Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-links">
+        <a href="#contact">Support</a>
+        <a href="#contact">Careers</a>
+        <a href="#">Client Login</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="logo-mark">A</div>
+        <div class="logo-text">
+          <span class="logo-name">APOLES</span>
+          <span class="logo-sub">CONSULTING</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#industries">Industries</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="#team">Our People</a></li>
+        <li><a href="#contact" class="btn btn-cta">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-breadcrumb">Home &rsaquo; Consulting</div>
+      <h1>Positioning You for Success in the Evolving Energy Landscape</h1>
+      <p>Apoles Consulting delivers strategic advisory services to power and energy companies worldwide — helping you navigate complexity, manage risk, and unlock value across the entire energy value chain.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Contact Our Team</a>
+        <a href="#services" class="btn btn-ghost">Explore Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats-bar">
+    <div class="container stats-container">
+      <div class="stat-item">
+        <span class="stat-number">200+</span>
+        <span class="stat-label">Projects Delivered</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">Utility Clients</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">25+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">15</span>
+        <span class="stat-label">Countries Served</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Navigator (WoodMac style) -->
+  <section class="quick-nav" id="quick-nav">
+    <div class="container">
+      <div class="quick-nav-grid">
+        <a href="#industries" class="quick-nav-card">
+          <div class="quick-nav-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="8" y="28" width="12" height="28" rx="2"/>
+              <rect x="26" y="16" width="12" height="40" rx="2"/>
+              <rect x="44" y="22" width="12" height="34" rx="2"/>
+              <path d="M4 56H60" stroke-width="2.5"/>
+              <circle cx="32" cy="8" r="4" fill="currentColor" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3>Industries</h3>
+          <p>Power, renewables, gas & oil sectors we serve</p>
+          <span class="quick-nav-link">Learn more &rarr;</span>
+        </a>
+        <a href="#services" class="quick-nav-card">
+          <div class="quick-nav-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M32 8L8 24V56H56V24L32 8Z" stroke-linejoin="round"/>
+              <rect x="24" y="36" width="16" height="20"/>
+              <path d="M20 24H44" stroke-linecap="round"/>
+              <circle cx="32" cy="20" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Services</h3>
+          <p>End-to-end consulting for the energy sector</p>
+          <span class="quick-nav-link">Learn more &rarr;</span>
+        </a>
+        <a href="#insights" class="quick-nav-card">
+          <div class="quick-nav-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="8" y="8" width="48" height="48" rx="4"/>
+              <path d="M16 40L26 28L36 34L48 20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="48" cy="20" r="3" fill="currentColor" opacity="0.4"/>
+              <path d="M16 48H48" stroke-linecap="round" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3>Case Studies</h3>
+          <p>Real results from our client engagements</p>
+          <span class="quick-nav-link">Learn more &rarr;</span>
+        </a>
+        <a href="#team" class="quick-nav-card">
+          <div class="quick-nav-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="32" cy="20" r="10"/>
+              <path d="M12 56c0-11 8.9-20 20-20s20 9 20 20"/>
+              <circle cx="50" cy="22" r="6" opacity="0.4"/>
+              <path d="M56 48c0-6-4-10.5-9-12.5" opacity="0.4" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Our People</h3>
+          <p>Meet our experienced industry professionals</p>
+          <span class="quick-nav-link">Learn more &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">About Apoles Consulting</span>
+          <h2>Deep Expertise Across the Power & Energy Value Chain</h2>
+          <p>Apoles Consulting is a specialized advisory firm dedicated to the global power and energy sector. We combine rigorous technical analysis with strategic business insight to help our clients make better decisions — from boardroom strategy to on-the-ground operations.</p>
+          <p>Our consultants bring decades of hands-on experience from leading utilities, power developers, regulatory bodies, and engineering firms. We understand the unique challenges facing the energy industry because we've lived them.</p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <div class="highlight-bar"></div>
+              <div>
+                <h4>Technical Excellence</h4>
+                <p>Engineers and analysts who understand power systems inside out.</p>
+              </div>
+            </div>
+            <div class="highlight">
+              <div class="highlight-bar"></div>
+              <div>
+                <h4>Global Perspective</h4>
+                <p>Active engagements across North America, Europe, Asia-Pacific, and the Middle East.</p>
+              </div>
+            </div>
+            <div class="highlight">
+              <div class="highlight-bar"></div>
+              <div>
+                <h4>Actionable Insights</h4>
+                <p>Data-driven recommendations that translate into measurable business outcomes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-image-block">
+            <div class="about-image-top">
+              <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" fill="#1a1f2e"/>
+                <path d="M0 200 Q100 120 200 160 Q300 200 400 140" stroke="#f7542b" stroke-width="3" fill="none"/>
+                <path d="M0 220 Q100 170 200 190 Q300 210 400 170" stroke="#f7542b" stroke-width="2" opacity="0.4" fill="none"/>
+                <rect x="40" y="100" width="30" height="100" fill="#f7542b" opacity="0.6" rx="2"/>
+                <rect x="90" y="70" width="30" height="130" fill="#f7542b" opacity="0.8" rx="2"/>
+                <rect x="140" y="90" width="30" height="110" fill="#f7542b" opacity="0.5" rx="2"/>
+                <rect x="190" y="60" width="30" height="140" fill="#f7542b" rx="2"/>
+                <rect x="240" y="110" width="30" height="90" fill="#f7542b" opacity="0.7" rx="2"/>
+                <rect x="290" y="80" width="30" height="120" fill="#f7542b" opacity="0.5" rx="2"/>
+                <rect x="340" y="50" width="30" height="150" fill="#f7542b" opacity="0.9" rx="2"/>
+                <text x="200" y="235" text-anchor="middle" fill="white" font-size="12" opacity="0.5">Energy Market Analytics</text>
+              </svg>
+            </div>
+            <div class="about-badge">
+              <span class="badge-number">25+</span>
+              <span class="badge-text">Years of Industry Leadership</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries Section -->
+  <section class="section industries" id="industries">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Industries We Serve</span>
+        <h2>Expertise Across the Energy Sector</h2>
+        <p>We bring deep domain knowledge to every segment of the power and energy value chain.</p>
+      </div>
+      <div class="industries-grid">
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M24 6L10 14V34L24 42L38 34V14L24 6Z" stroke-linejoin="round"/>
+              <path d="M24 6V42" opacity="0.3"/>
+              <path d="M10 14L38 34M38 14L10 34" opacity="0.2"/>
+            </svg>
+          </div>
+          <h3>Power Generation</h3>
+          <p>Strategic and operational advisory for thermal, nuclear, hydro, and combined-cycle generation assets.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="24" cy="24" r="12"/>
+              <path d="M24 4V12M24 36V44M4 24H12M36 24H44" stroke-linecap="round"/>
+              <path d="M10 10L16 16M32 32L38 38M38 10L32 16M16 32L10 38" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Renewable Energy</h3>
+          <p>End-to-end advisory for solar, wind, battery storage, and hybrid renewable project development.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 36H42" stroke-width="2.5"/>
+              <path d="M10 36V20H18V36" stroke-linejoin="round"/>
+              <path d="M22 36V12H30V36" stroke-linejoin="round"/>
+              <path d="M34 36V24H42V36" stroke-linejoin="round"/>
+              <path d="M6 20L14 12L24 16L38 8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Transmission & Distribution</h3>
+          <p>Grid modernization, asset management, and infrastructure planning for T&D operators.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="24" cy="24" r="16"/>
+              <path d="M24 8V24H36" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="3" fill="currentColor" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3>Utilities & Regulators</h3>
+          <p>Rate case support, regulatory strategy, and compliance advisory for utilities and energy regulators.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="6" y="10" width="36" height="28" rx="3"/>
+              <path d="M6 18H42"/>
+              <path d="M14 26H26M14 32H20" stroke-linecap="round"/>
+              <path d="M34 28L38 32L34 36" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Energy Investors</h3>
+          <p>Technical due diligence, market analysis, and commercial advisory for energy sector transactions.</p>
+        </div>
+        <div class="industry-card">
+          <div class="industry-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 18L24 10L35 18V38H13V18Z" stroke-linejoin="round"/>
+              <rect x="20" y="28" width="8" height="10"/>
+              <rect x="18" y="20" width="4" height="4" rx="0.5"/>
+              <rect x="26" y="20" width="4" height="4" rx="0.5"/>
+              <path d="M8 38H40" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3>Gas & LNG</h3>
+          <p>Market analysis, supply chain optimization, and strategic advisory for natural gas and LNG markets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2>Comprehensive Energy Consulting</h2>
+        <p>Tailored advisory solutions that address the most pressing challenges facing the power industry.</p>
+      </div>
+      <div class="services-list">
+        <div class="service-row">
+          <div class="service-number">01</div>
+          <div class="service-content">
+            <h3>Strategy & Market Advisory</h3>
+            <p>Market entry strategies, competitive positioning, portfolio optimization, and long-term strategic planning for energy companies navigating the transition.</p>
+          </div>
+          <a href="#contact" class="service-arrow">&rarr;</a>
+        </div>
+        <div class="service-row">
+          <div class="service-number">02</div>
+          <div class="service-content">
+            <h3>Grid Modernization & Smart Grid</h3>
+            <p>Planning and implementation support for advanced metering infrastructure, distribution automation, grid-edge technologies, and DER integration.</p>
+          </div>
+          <a href="#contact" class="service-arrow">&rarr;</a>
+        </div>
+        <div class="service-row">
+          <div class="service-number">03</div>
+          <div class="service-content">
+            <h3>Renewable Energy Advisory</h3>
+            <p>Technical and commercial advisory for utility-scale solar, onshore/offshore wind, battery storage, and hybrid renewable projects across the development lifecycle.</p>
+          </div>
+          <a href="#contact" class="service-arrow">&rarr;</a>
+        </div>
+        <div class="service-row">
+          <div class="service-number">04</div>
+          <div class="service-content">
+            <h3>Regulatory & Compliance</h3>
+            <p>Navigate complex regulatory frameworks, rate design, tariff analysis, and compliance requirements with strategic clarity and confidence.</p>
+          </div>
+          <a href="#contact" class="service-arrow">&rarr;</a>
+        </div>
+        <div class="service-row">
+          <div class="service-number">05</div>
+          <div class="service-content">
+            <h3>M&A and Transaction Support</h3>
+            <p>Technical and commercial due diligence for mergers, acquisitions, project finance, and infrastructure investment transactions.</p>
+          </div>
+          <a href="#contact" class="service-arrow">&rarr;</a>
+        </div>
+        <div class="service-row">
+          <div class="service-number">06</div>
+          <div class="service-content">
+            <h3>Operations & Asset Optimization</h3>
+            <p>Improve reliability, reduce costs, and extend asset life through data-driven maintenance strategies and operational excellence programs.</p>
+          </div>
+          <a href="#contact" class="service-arrow">&rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insights / Case Studies Section -->
+  <section class="section insights" id="insights">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Insights & Case Studies</span>
+        <h2>Recent Work & Thought Leadership</h2>
+        <p>Explore how Apoles Consulting has helped clients achieve measurable results.</p>
+      </div>
+      <div class="insights-grid">
+        <div class="insight-card">
+          <div class="insight-tag">Case Study</div>
+          <h3>Grid Resilience Assessment for Major Northeast Utility</h3>
+          <p>Delivered a comprehensive resilience assessment and $2.1B capital investment roadmap for a top-10 U.S. utility facing increasing extreme weather events.</p>
+          <a href="#contact" class="insight-link">Read more &rarr;</a>
+        </div>
+        <div class="insight-card">
+          <div class="insight-tag">Case Study</div>
+          <h3>Renewable Portfolio Strategy for European IPP</h3>
+          <p>Developed a 10-year renewable growth strategy across 5 European markets, identifying 4.2 GW of development opportunities in solar and onshore wind.</p>
+          <a href="#contact" class="insight-link">Read more &rarr;</a>
+        </div>
+        <div class="insight-card">
+          <div class="insight-tag">White Paper</div>
+          <h3>The Future of Energy Storage: Market Outlook 2025-2035</h3>
+          <p>Our latest analysis of battery storage market dynamics, technology trends, and investment opportunities across key global markets.</p>
+          <a href="#contact" class="insight-link">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our People</span>
+        <h2>Experienced Industry Leaders</h2>
+        <p>Our team combines deep technical expertise with strategic vision — professionals who've led utilities, developed projects, and shaped energy policy.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-photo">
+            <svg viewBox="0 0 200 200" fill="none">
+              <rect width="200" height="200" fill="#f0f2f5"/>
+              <circle cx="100" cy="76" r="32" fill="#d1d5dc"/>
+              <path d="M40 200c0-33 27-60 60-60s60 27 60 60" fill="#d1d5dc"/>
+            </svg>
+          </div>
+          <div class="team-info">
+            <h4>Sarah Mitchell</h4>
+            <span class="team-role">Managing Director</span>
+            <p>25 years in power sector consulting. Former VP of Strategy at a Fortune 500 utility company.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-photo">
+            <svg viewBox="0 0 200 200" fill="none">
+              <rect width="200" height="200" fill="#f0f2f5"/>
+              <circle cx="100" cy="76" r="32" fill="#d1d5dc"/>
+              <path d="M40 200c0-33 27-60 60-60s60 27 60 60" fill="#d1d5dc"/>
+            </svg>
+          </div>
+          <div class="team-info">
+            <h4>James Chen</h4>
+            <span class="team-role">Director, Grid Advisory</span>
+            <p>Licensed PE specializing in transmission planning, smart grid, and grid reliability engineering.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-photo">
+            <svg viewBox="0 0 200 200" fill="none">
+              <rect width="200" height="200" fill="#f0f2f5"/>
+              <circle cx="100" cy="76" r="32" fill="#d1d5dc"/>
+              <path d="M40 200c0-33 27-60 60-60s60 27 60 60" fill="#d1d5dc"/>
+            </svg>
+          </div>
+          <div class="team-info">
+            <h4>Maria Rodriguez</h4>
+            <span class="team-role">Director, Renewables</span>
+            <p>Led over 3 GW of renewable project development across solar, wind, and storage technologies.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-photo">
+            <svg viewBox="0 0 200 200" fill="none">
+              <rect width="200" height="200" fill="#f0f2f5"/>
+              <circle cx="100" cy="76" r="32" fill="#d1d5dc"/>
+              <path d="M40 200c0-33 27-60 60-60s60 27 60 60" fill="#d1d5dc"/>
+            </svg>
+          </div>
+          <div class="team-info">
+            <h4>David Okonkwo</h4>
+            <span class="team-role">Director, Regulatory Affairs</span>
+            <p>Former energy regulator with deep expertise in rate design, utility regulation, and energy policy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Ready to Navigate the Energy Transition?</h2>
+        <p>Let's discuss how Apoles Consulting can help your organization achieve its strategic objectives.</p>
+      </div>
+      <a href="#contact" class="btn btn-primary btn-lg">Schedule a Consultation</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Contact Our Consulting Team</h2>
+          <p>Whether you're planning a major investment, navigating regulatory change, or exploring new market opportunities — our team is ready to help.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Houston Office</h4>
+                <p>1200 Energy Plaza, Suite 400<br>Houston, TX 77002</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>London Office</h4>
+                <p>40 Chancery Lane<br>London, WC2A 1JA</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>consulting@apoles.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.36 1.6.7 2.33a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.73.34 1.52.57 2.33.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p>+1 (713) 555-0192</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <h3>Send Us a Message</h3>
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="jobTitle">Job Title</label>
+              <input type="text" id="jobTitle" name="jobTitle">
+            </div>
+            <div class="form-group">
+              <label for="company">Company *</label>
+              <input type="text" id="company" name="company" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Business Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telephone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="">Select a country</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+                <option value="au">Australia</option>
+                <option value="de">Germany</option>
+                <option value="fr">France</option>
+                <option value="sg">Singapore</option>
+                <option value="ae">United Arab Emirates</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Comments *</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Tell us about your project or inquiry..."></textarea>
+            </div>
+            <div class="form-group form-checkbox">
+              <label>
+                <input type="checkbox" name="consent">
+                <span>I consent to receiving marketing communications from Apoles Consulting. You can unsubscribe at any time.</span>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Submit Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="#" class="logo footer-logo">
+            <div class="logo-mark">A</div>
+            <div class="logo-text">
+              <span class="logo-name">APOLES</span>
+              <span class="logo-sub">CONSULTING</span>
+            </div>
+          </a>
+          <p>Strategic advisory for the global power and energy industry. Helping clients navigate complexity and unlock value.</p>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+            </a>
+            <a href="#" aria-label="X / Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.55A3.02 3.02 0 00.5 6.19 31.8 31.8 0 000 12a31.8 31.8 0 00.5 5.81 3.02 3.02 0 002.12 2.14c1.88.55 9.38.55 9.38.55s7.5 0 9.38-.55a3.02 3.02 0 002.12-2.14A31.8 31.8 0 0024 12a31.8 31.8 0 00-.5-5.81zM9.54 15.57V8.43L15.82 12z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="#industries">Power & Generation</a></li>
+            <li><a href="#industries">Renewables</a></li>
+            <li><a href="#industries">Transmission & Distribution</a></li>
+            <li><a href="#services">Consulting Services</a></li>
+            <li><a href="#insights">Case Studies</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Strategy Advisory</a></li>
+            <li><a href="#services">Grid Modernization</a></li>
+            <li><a href="#services">Renewable Advisory</a></li>
+            <li><a href="#services">Regulatory Support</a></li>
+            <li><a href="#services">M&A Due Diligence</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our People</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Apoles Consulting. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
